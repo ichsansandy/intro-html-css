@@ -31,6 +31,10 @@ li a {
   text-decoration: none;
 }
 
+li a:hover {
+  text-shadow: 1px 4px 8px black;
+}
+
 header {
   background-color: beige;
   height: 40px;
