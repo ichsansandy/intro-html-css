@@ -40,12 +40,12 @@ header {
   height: 40px;
   width: 100%;
   position: fixed;
-  margin-top: 0;
   border-bottom: 3px salmon solid;
+  z-index: 1;
 }
-.section {
+section {
   position: relative;
-  top: 50px;
+  top: 40px;
 }
 
 .container-post {
@@ -70,4 +70,5 @@ footer {
   display: flex;
   justify-content: center;
   font-size: small;
+  position: relative;
 }
